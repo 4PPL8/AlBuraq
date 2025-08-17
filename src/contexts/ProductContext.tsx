@@ -45,7 +45,7 @@ const initialProducts: Product[] = [
     features: ['Long-lasting color', 'Natural ingredients', 'Easy application']
   },
    {
-    id: '50',
+    id: '2',
     name: 'Belo Color (Brown)',
     category: 'Cosmetics & Personal Care',
     description: 'High-quality brown hair color for vibrant, rich, and long-lasting results.',
@@ -63,7 +63,7 @@ const initialProducts: Product[] = [
     ]
   },
   {
-    id: '2',
+    id: '3',
     name: 'Grace Color',
     category: 'Cosmetics & Personal Care',
     description: 'Premium hair coloring solution with excellent coverage.',
@@ -77,7 +77,7 @@ const initialProducts: Product[] = [
     features: ['Premium quality', 'Excellent coverage', 'Hair-friendly formula']
   },
    {
-    id: '51',
+    id: '4',
     name: 'Grace Color – Brown',
     category: 'Cosmetics & Personal Care',
     description: 'Premium brown hair coloring solution with excellent coverage and a natural finish.',
@@ -94,7 +94,7 @@ const initialProducts: Product[] = [
     ]
   },
   {
-    id: '3',
+    id: '5',
     name: 'Veloria Facial',
     category: 'Cosmetics & Personal Care',
     description: 'Gentle facial cream for smooth and radiant skin.',
@@ -107,7 +107,7 @@ const initialProducts: Product[] = [
     features: ['Gentle formula', 'Radiant skin', 'Moisturizing effect']
   },
   {
-    id: '41',
+    id: '6',
     name: 'Grace Bleach',
     category: 'Cosmetics & Personal Care',
     description: 'Gentle skin bleach that lightens facial hair and evens skin tone.',
@@ -124,7 +124,7 @@ const initialProducts: Product[] = [
     ]
   },
   {
-    id: '42',
+    id: '7',
     name: 'Veloria Skin Polish',
     category: 'Cosmetics & Personal Care',
     description: 'Exfoliating polish for removing dead skin and giving a smooth, radiant look.',
@@ -141,7 +141,7 @@ const initialProducts: Product[] = [
     ]
   },
   {
-    id: '43',
+    id: '8',
     name: 'Veloria Remover',
     category: 'Cosmetics & Personal Care',
     description: 'Effective cream-based hair remover for smooth and soft skin.',
@@ -158,7 +158,7 @@ const initialProducts: Product[] = [
     ]
   },
   {
-    id: '44',
+    id: '9',
     name: 'Veloria Bleach',
     category: 'Cosmetics & Personal Care',
     description: 'Herbal bleach that lightens dark facial hair and gives fairer skin.',
@@ -175,7 +175,7 @@ const initialProducts: Product[] = [
     ]
   },
   {
-    id: '45',
+    id: '10',
     name: 'Hit Lotion',
     category: 'Cosmetics & Personal Care',
     description: 'Anti-mosquito lotion with long-lasting protection and a fragrant, silky formula.',
@@ -192,7 +192,7 @@ const initialProducts: Product[] = [
     ]
   },
   {
-    id: '46',
+    id: '11',
     name: 'Neat Remover',
     category: 'Cosmetics & Personal Care',
     description: 'Cream remover for unwanted body hair with a smooth, quick-action formula.',
@@ -210,7 +210,7 @@ const initialProducts: Product[] = [
   },
  
   {
-    id: '53',
+    id: '12',
     name: 'Neat Bleach',
     category: 'Cosmetics & Personal Care',
     description: 'Gentle bleach for lightening facial hair and brightening skin tone.',
@@ -233,7 +233,7 @@ const initialProducts: Product[] = [
 
   // Razors
   {
-    id: '4',
+    id: '13',
     name: 'Sharp Ultra Razor',
     category: 'Razors',
     description: 'Professional-grade razor for precise and comfortable shaving.',
@@ -246,7 +246,7 @@ const initialProducts: Product[] = [
     features: ['Sharp blade', 'Comfortable grip', 'Precise cutting']
   },
   {
-    id: '5',
+    id: '14',
     name: 'Ujala Razor',
     category: 'Razors',
     description: 'Reliable razor for everyday grooming needs.',
@@ -259,7 +259,7 @@ const initialProducts: Product[] = [
     features: ['Reliable quality', 'Everyday use', 'Affordable price']
   },
   {
-    id: '52',
+    id: '15',
     name: 'Turk Razor',
     category: 'Razors',
     description: 'High-quality razor for smooth and precise shaving experience.',
@@ -276,7 +276,7 @@ const initialProducts: Product[] = [
     ]
   },
     {
-    id: '54',
+    id: '16',
     name: 'Sharp Hygiene Razor',
     category: 'Razors',
     description: 'Hygienic razor designed for safe and comfortable shaving.',
@@ -295,7 +295,7 @@ const initialProducts: Product[] = [
     ]
   },
   {
-    id: '55',
+    id: '17',
     name: 'Sharp Paki Razor',
     category: 'Razors',
     description: 'Traditional Paki razor for precise and smooth shaving.',
@@ -314,7 +314,7 @@ const initialProducts: Product[] = [
 
   // Toothbrush
   {
-    id: '6',
+    id: '18',
     name: 'Mr Clean Toothbrush',
     category: 'Toothbrush',
     description: 'High-quality toothbrush for optimal oral hygiene.',
@@ -329,7 +329,7 @@ const initialProducts: Product[] = [
 
   // Agarbatti (Incense Sticks)
   {
-    id: '7',
+    id: '19',
     name: 'Mahfil Milan',
     category: 'Agarbatti (Incense Sticks)',
     description: 'Premium incense sticks with enchanting fragrance.',
@@ -342,7 +342,7 @@ const initialProducts: Product[] = [
     features: ['Premium quality', 'Long-lasting fragrance', 'Natural ingredients']
   },
   {
-    id: '14',
+    id: '20',
     name: 'Mahfil Milan (Extra)',
     category: 'Agarbatti (Incense Sticks)',
     description: 'Another batch of premium incense sticks with enchanting fragrance.',
@@ -355,7 +355,7 @@ const initialProducts: Product[] = [
     features: ['Same premium quality', 'Great for bulk purchase']
   },
   {
-    id: '8',
+    id: '21',
     name: 'Golden Milan',
     category: 'Agarbatti (Incense Sticks)',
     description: 'Luxurious incense sticks for a calming atmosphere.',
@@ -370,7 +370,7 @@ const initialProducts: Product[] = [
 
   // Natural / Herbal Products
   {
-    id: '9',
+    id: '22',
     name: 'Natural ISP',
     category: 'Natural / Herbal Products',
     description: 'Natural herbal supplement for health and wellness.',
@@ -381,7 +381,7 @@ const initialProducts: Product[] = [
     features: ['Natural ingredients', 'Health benefits', 'Traditional formula']
   },
   {
-    id: '10',
+    id: '23',
     name: 'Natural Joshanda',
     category: 'Natural / Herbal Products',
     description: 'Traditional herbal remedy for respiratory wellness.',
@@ -394,7 +394,7 @@ const initialProducts: Product[] = [
     features: ['Traditional remedy', 'Natural herbs', 'Respiratory support']
   },
     {
-    id: '57',
+    id: '24',
     name: 'Punjabi Ispagol',
     category: 'Natural / Herbal Products',
     description: 'High-quality ispagol (psyllium husk) for digestive health.',
@@ -411,7 +411,7 @@ const initialProducts: Product[] = [
 
   // Adhesive Tape
   {
-    id: '11',
+    id: '25',
     name: 'Lemon Adhesive Tape',
     category: 'Adhesive Tape',
     description: 'High-quality adhesive tape for various applications.',
@@ -424,7 +424,7 @@ const initialProducts: Product[] = [
     features: ['Strong adhesion', 'Versatile use', 'Durable material']
   },
   {
-    id: '15',
+    id: '26',
     name: 'Dark Red Adhesive Tape',
     category: 'Adhesive Tape',
     description: 'Strong adhesive tape in a dark red color.',
@@ -437,7 +437,7 @@ const initialProducts: Product[] = [
     features: ['High strength', 'Vibrant color', 'Reliable bond']
   },
   {
-    id: '16',
+    id: '27',
     name: 'Brown Adhesive Tape',
     category: 'Adhesive Tape',
     description: 'Standard brown packaging tape for secure sealing.',
@@ -450,7 +450,7 @@ const initialProducts: Product[] = [
     features: ['Strong hold', 'Packaging use', 'Durable']
   },
   {
-    id: '17',
+    id: '28',
     name: 'Super Yellowish Adhesive Tape',
     category: 'Adhesive Tape',
     description: 'Highly visible yellowish tape for marking and sealing.',
@@ -463,20 +463,18 @@ const initialProducts: Product[] = [
     features: ['High visibility', 'Strong adhesion', 'Multi-purpose']
   },
   {
-    id: '18',
+    id: '29',
     name: 'Masking Tape',
     category: 'Adhesive Tape',
     description: 'Crepe paper masking tape for painting and general purpose use.',
-    image: '/masking-tape-1.jpg',
+    image: '/masking-tape-1.png',
     images: [
-      '/masking-tape-1.jpg',
-      DefaultProductPlaceholder,
-      DefaultProductPlaceholder
+      '/masking-tape-1.png'
     ],
     features: ['Clean removal', 'Paint masking', 'Easy tear']
   },
   {
-    id: '19',
+    id: '30',
     name: 'Transparent Tape',
     category: 'Adhesive Tape',
     description: 'Clear adhesive tape for invisible mending and sealing.',
@@ -491,7 +489,7 @@ const initialProducts: Product[] = [
 
   // PVC Tape
   {
-    id: '20',
+    id: '31',
     name: 'Hit Tape',
     category: 'PVC Tape',
     description: 'Durable PVC electrical insulation tape.',
@@ -504,7 +502,7 @@ const initialProducts: Product[] = [
     features: ['Electrical insulation', 'Strong adhesion', 'Weather resistant']
   },
   {
-    id: '21',
+    id: '32',
     name: 'Snake Tape',
     category: 'PVC Tape',
     description: 'High-quality PVC tape with strong adhesive properties.',
@@ -517,7 +515,7 @@ const initialProducts: Product[] = [
     features: ['High adhesion', 'Flexible', 'Durable']
   },
   {
-    id: '22',
+    id: '33',
     name: 'Gold Tape',
     category: 'PVC Tape',
     description: 'Premium gold-colored PVC tape for various applications.',
@@ -532,7 +530,7 @@ const initialProducts: Product[] = [
 
   // Stationery
   {
-    id: '23',
+    id: '34',
     name: 'Lead Pencil',
     category: 'Stationery',
     description: 'High-quality graphite pencil for writing and drawing.',
@@ -544,7 +542,7 @@ const initialProducts: Product[] = [
     features: ['Smooth writing', 'Durable lead', 'Comfortable grip']
   },
   {
-    id: '24',
+    id: '35',
     name: 'Sonex Color Pencil',
     category: 'Stationery',
     description: 'Vibrant color pencils for creative artwork.',
@@ -557,7 +555,7 @@ const initialProducts: Product[] = [
     features: ['Bright colors', 'Smooth blending', 'Non-toxic']
   },
   {
-    id: '56',
+    id: '36',
     name: 'Good Colored Pencil',
     category: 'Stationery',
     description: 'Color pencils for creative artwork, perfect for artists and students.',
@@ -572,7 +570,7 @@ const initialProducts: Product[] = [
 
   // Stationery Tapes
   {
-    id: '26',
+    id: '37',
     name: '333 Tape',
     category: 'Stationery Tapes',
     description: 'General purpose stationery tape with good adhesion.',
@@ -585,7 +583,7 @@ const initialProducts: Product[] = [
     features: ['Clear finish', 'Strong bond', 'Easy to use']
   },
   {
-    id: '27',
+    id: '38',
     name: '555 Tape',
     category: 'Stationery Tapes',
     description: 'Strong adhesive tape for office and school use.',
@@ -598,7 +596,7 @@ const initialProducts: Product[] = [
     features: ['Reliable adhesion', 'Versatile', 'Durable']
   },
   {
-    id: '28',
+    id: '39',
     name: '777 Tape',
     category: 'Stationery Tapes',
     description: 'High-performance stationery tape for demanding tasks.',
@@ -609,7 +607,7 @@ const initialProducts: Product[] = [
     features: ['Extra strong', 'Long-lasting', 'Heavy-duty']
   },
   {
-    id: '29',
+    id: '40',
     name: '888 Tape',
     category: 'Stationery Tapes',
     description: 'Economical stationery tape for everyday needs.',
@@ -620,7 +618,7 @@ const initialProducts: Product[] = [
     features: ['Cost-effective', 'Good adhesion', 'General use']
   },
   {
-    id: '30',
+    id: '41',
     name: '999 Tape',
     category: 'Stationery Tapes',
     description: 'Premium clear tape for professional applications.',
@@ -631,7 +629,7 @@ const initialProducts: Product[] = [
     features: ['Crystal clear', 'Strong hold', 'Invisible finish']
   },
   {
-    id: '31',
+    id: '42',
     name: '1000 Tape',
     category: 'Stationery Tapes',
     description: 'Bulk stationery tape for high-volume usage.',
@@ -642,7 +640,7 @@ const initialProducts: Product[] = [
     features: ['Large roll', 'Economical', 'Reliable']
   },
   {
-    id: '32',
+    id: '43',
     name: '2000 Tape',
     category: 'Stationery Tapes',
     description: 'Extra strong stationery tape for heavy-duty applications.',
@@ -653,7 +651,7 @@ const initialProducts: Product[] = [
     features: ['Super strong', 'Industrial grade', 'Long-lasting']
   },
   {
-    id: '33',
+    id: '44',
     name: '3000 Tape',
     category: 'Stationery Tapes',
     description: 'Specialty tape for unique stationery and craft needs.',
@@ -666,7 +664,7 @@ const initialProducts: Product[] = [
 
   // Baby Products (Soothers)
   {
-    id: '12',
+    id: '45',
     name: 'Silicon Nipple',
     category: 'Baby Products (Soothers)',
     description: 'Safe and comfortable silicon soother for babies.',
@@ -679,7 +677,7 @@ const initialProducts: Product[] = [
     features: ['Food-grade silicon', 'Comfortable design', 'Easy to clean']
   },
   {
-    id: '34',
+    id: '46',
     name: 'Camera Nipple',
     category: 'Baby Products (Soothers)',
     description: 'Innovative soother designed for easy monitoring and comfort.',
@@ -694,7 +692,7 @@ const initialProducts: Product[] = [
 
   // Cleaning Products
   {
-    id: '35',
+    id: '47',
     name: 'Grace Bright (Green)',
     category: 'Cleaning Products',
     description: 'Powerful cleaning solution for sparkling surfaces.',
@@ -706,7 +704,7 @@ const initialProducts: Product[] = [
     features: ['Streak-free clean', 'Fast-acting', 'Fresh scent']
   },
    {
-    id: '80',
+    id: '48',
     name: 'Grace Bright (Black)',
     category: 'Cleaning Products',
     description: 'Powerful cleaning solution for sparkling surfaces.',
@@ -720,7 +718,7 @@ const initialProducts: Product[] = [
     features: ['Streak-free clean', 'Fast-acting', 'Fresh scent']
   },
   {
-    id: '36',
+    id: '49',
     name: 'Shine X Scourer',
     category: 'Cleaning Products',
     description: 'Heavy-duty scourer for tough grime and stains.',
@@ -735,7 +733,7 @@ const initialProducts: Product[] = [
     features: ['Removes tough stains', 'Durable', 'Easy to grip']
   },
   {
-   id: '58',
+   id: '50',
     name: 'Shine X Scourer',
     category: 'Cleaning Products',
     description: 'Heavy-duty scourer for tough grime and stains.',
@@ -748,7 +746,7 @@ const initialProducts: Product[] = [
     features: ['Removes tough stains', 'Durable', 'Easy to grip']
   },
   {
-   id: '59',
+   id: '51',
     name: 'Shine X Scourer',
     category: 'Cleaning Products',
     description: 'Heavy-duty scourer for tough grime and stains.',
@@ -760,7 +758,7 @@ const initialProducts: Product[] = [
     features: ['Removes tough stains', 'Durable', 'Easy to grip']
   },
   {
-    id: '37',
+    id: '52',
     name: 'Tissue',
     category: 'Cleaning Products',
     description: 'Soft and absorbent tissues for everyday cleaning needs.',
@@ -775,7 +773,7 @@ const initialProducts: Product[] = [
 
   // Pest Control
   {
-    id: '38',
+    id: '53',
     name: 'Rat Book (Mouse/Rat Catcher)',
     category: 'Pest Control',
     description: 'Effective and humane trap for catching mice and rats.',
@@ -790,7 +788,7 @@ const initialProducts: Product[] = [
 
   // Craft Supplies
   {
-    id: '47',
+    id: '54',
     name: 'Turk Elfi',
     category: 'Craft Supplies',
     description: 'Premium quality elfi adhesive used for crafts, nails, or multipurpose cosmetic use.',
@@ -806,7 +804,7 @@ const initialProducts: Product[] = [
     ]
   },
   {
-    id: '48',
+    id: '55',
     name: 'Turk Glue 20 Gram',
     category: 'Craft Supplies',
     description: 'Compact 20g Turk glue suitable for precise application in arts, crafts, or beauty.',
@@ -822,7 +820,7 @@ const initialProducts: Product[] = [
     ]
   },
   {
-    id: '49',
+    id: '56',
     name: 'Turk Glue 50 Gram',
     category: 'Craft Supplies',
     description: 'Larger 50g Turk glue ideal for extended use in crafting and professional projects.',
