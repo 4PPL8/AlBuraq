@@ -779,7 +779,7 @@ const initialProducts: Product[] = [
   // Craft Supplies
   {
     id: '54',
-    name: 'Turk Elfi',
+    name: 'Turk Glue',
     category: 'Craft Supplies',
     description: 'Premium quality elfi adhesive used for crafts, nails, or multipurpose cosmetic use.',
     image: '/turk-elfi-1.png',
