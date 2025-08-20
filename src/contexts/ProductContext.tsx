@@ -417,9 +417,7 @@ const initialProducts: Product[] = [
     description: 'High-quality adhesive tape for various applications.',
     image: '/lemn-adhesive-tape-1.jpg',
     images: [
-      '/lemn-adhesive-tape-1.jpg',
-      '/lemon-adhesive-tape-2.jpg',
-      DefaultProductPlaceholder
+      '/lemn-adhesive-tape-1.jpg'
     ],
     features: ['Strong adhesion', 'Versatile use', 'Durable material']
   },
@@ -430,9 +428,7 @@ const initialProducts: Product[] = [
     description: 'Strong adhesive tape in a dark red color.',
     image: '/dark-red-tape-1.jpg',
     images: [
-      '/dark-red-tape-1.jpg',
-      DefaultProductPlaceholder,
-      DefaultProductPlaceholder
+      '/dark-red-tape-1.jpg'
     ],
     features: ['High strength', 'Vibrant color', 'Reliable bond']
   },
@@ -443,9 +439,7 @@ const initialProducts: Product[] = [
     description: 'Standard brown packaging tape for secure sealing.',
     image: '/brown-tape-1.jpg',
     images: [
-      '/brown-tape-1.jpg',
-      DefaultProductPlaceholder,
-      DefaultProductPlaceholder
+      '/brown-tape-1.jpg'
     ],
     features: ['Strong hold', 'Packaging use', 'Durable']
   },
@@ -456,9 +450,7 @@ const initialProducts: Product[] = [
     description: 'Highly visible yellowish tape for marking and sealing.',
     image: '/super-yellowish-tape-1.jpg',
     images: [
-      '/super-yellowish-tape-1.jpg',
-      DefaultProductPlaceholder,
-      DefaultProductPlaceholder
+      '/super-yellowish-tape-1.jpg'
     ],
     features: ['High visibility', 'Strong adhesion', 'Multi-purpose']
   },
@@ -480,9 +472,7 @@ const initialProducts: Product[] = [
     description: 'Clear adhesive tape for invisible mending and sealing.',
     image: '/transparent-tape-1.jpg',
     images: [
-      '/transparent-tape-1.jpg',
-      DefaultProductPlaceholder,
-      DefaultProductPlaceholder
+      '/transparent-tape-1.jpg'
     ],
     features: ['Invisible finish', 'Strong bond', 'Versatile']
   },
