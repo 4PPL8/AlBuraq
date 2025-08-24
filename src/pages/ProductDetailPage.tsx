@@ -146,8 +146,13 @@ const ProductDetailPage: React.FC = () => {
                 <h1 className="text-3xl lg:text-4xl font-bold text-gray-800 mb-4">
                   {product.name}
                 </h1>
+                {product.packaging && (
+                  <p className="text-gray-700 text-lg leading-relaxed mb-2">
+                    <span className="font-semibold">Packaging:</span> {product.packaging}
+                  </p>
+                )}
                 <p className="text-gray-600 text-lg leading-relaxed">
-                  {product.description}
+                  <span className="font-semibold">Description:</span> {product.description}
                 </p>
               </div>
 

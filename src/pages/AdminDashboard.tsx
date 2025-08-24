@@ -43,6 +43,7 @@ const AdminDashboard: React.FC = () => {
   const [formData, setFormData] = useState({
     name: '',
     category: '',
+    packaging: '',
     description: '',
     image: '', // Main image URL (string for base64 or URL)
     features: [''],
@@ -53,6 +54,7 @@ const AdminDashboard: React.FC = () => {
     setFormData({
       name: '',
       category: '',
+      packaging: '',
       description: '',
       image: '',
       features: [''],
@@ -67,6 +69,7 @@ const AdminDashboard: React.FC = () => {
       setFormData({
         name: product.name,
         category: product.category,
+        packaging: product.packaging || '',
         description: product.description,
         image: product.image,
         features: product.features.length > 0 ? product.features : [''],
@@ -174,6 +177,7 @@ const AdminDashboard: React.FC = () => {
     const productData: Omit<Product, 'id'> = {
       name: formData.name.trim(),
       category: formData.category,
+      packaging: formData.packaging.trim() ? formData.packaging.trim() : undefined,
       description: formData.description.trim(),
       image: formData.image, // This now holds Base64 or direct path
       features: filteredFeatures,
@@ -475,6 +479,20 @@ const AdminDashboard: React.FC = () => {
                         ))}
                       </select>
                     </div>
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      Packaging
+                    </label>
+                    <input
+                      type="text"
+                      name="packaging"
+                      value={formData.packaging}
+                      onChange={handleInputChange}
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      placeholder="e.g., 24PCS PER BOX • 18BOXES PER CTN"
+                    />
                   </div>
 
                   <div>

@@ -10,6 +10,7 @@ export interface Product {
   name: string;
   category: string;
   description: string;
+  packaging?: string;
   image: string;
   features: string[];
   images?: string[]; // Optional array of image URLs
@@ -35,7 +36,8 @@ const initialProducts: Product[] = [
     id: '1',
     name: 'Belo Color',
     category: 'Cosmetics & Personal Care',
-    description: 'High-quality hair color for vibrant and long-lasting results.',
+    packaging: '24PCS PER BOX • 18BOXES PER CTN',
+    description: 'Hair coloring can offer numerous benefits, including a renewed sense of confidence, enhanced appearance, and the ability to express oneself. It can also add shine and volume to hair, while also helping to cover grays and make hair appear thicker.',
     image: '/balo-color-1.jpg',
     images: [
       '/balo-color-1.jpg',
@@ -48,7 +50,8 @@ const initialProducts: Product[] = [
     id: '2',
     name: 'Belo Color (Brown)',
     category: 'Cosmetics & Personal Care',
-    description: 'High-quality brown hair color for vibrant, rich, and long-lasting results.',
+     packaging: '24PCS PER BOX • 18BOXES PER CTN',
+    description: 'Hair coloring can offer numerous benefits, including a renewed sense of confidence, enhanced appearance, and the ability to express oneself. It can also add shine and volume to hair, while also helping to cover grays and make hair appear thicker.',
     image: '/belo-color-brown-0.png',
     images: [
       '/belo-color-brown-0.png',
@@ -66,7 +69,8 @@ const initialProducts: Product[] = [
     id: '3',
     name: 'Grace Color',
     category: 'Cosmetics & Personal Care',
-    description: 'Premium hair coloring solution with excellent coverage.',
+    packaging: '12PCS PER BOX • 24BOXES PER CTN',
+    description: 'Hair cream color offers several benefits, including precise application for targeted coloring, long-lasting results, and the ability to nourish and hydrate the hair.',
     image: '/grace-color-0.png',
     images: [
       '/grace-color-0.png',
@@ -80,7 +84,8 @@ const initialProducts: Product[] = [
     id: '4',
     name: 'Grace Color – Brown',
     category: 'Cosmetics & Personal Care',
-    description: 'Premium brown hair coloring solution with excellent coverage and a natural finish.',
+    packaging: '12PCS PER BOX • 24BOXES PER CTN',
+    description: 'Hair cream color offers several benefits, including precise application for targeted coloring, long-lasting results, and the ability to nourish and hydrate the hair.',
     image: '/grace-color-brown-1.png',
     images: [
       '/grace-color-brown-1.png',
@@ -97,7 +102,8 @@ const initialProducts: Product[] = [
     id: '5',
     name: 'Veloria Facial',
     category: 'Cosmetics & Personal Care',
-    description: 'Gentle facial cream for smooth and radiant skin.',
+    packaging: '24PCS PER BOX • 16BOXES PER CTN',
+    description: 'A "rice whitening urgent facial" refers to a quick skin care treatment that uses rice as a primary ingredient to brighten and even out skin tone.',
     image: '/veloria-facial-2.png',
     images: [
       '/veloria-facial-2.png',
@@ -110,7 +116,8 @@ const initialProducts: Product[] = [
     id: '6',
     name: 'Grace Bleach',
     category: 'Cosmetics & Personal Care',
-    description: 'Gentle skin bleach that lightens facial hair and evens skin tone.',
+    packaging: '24PCS PER BOX • 16BOXES PER CTN',
+    description: 'Often used for skin brightening and hair lightening, offers benefits like removing dark spots, brightening skin, and reducing the appearance of facial hair.',
     image: '/grace-bleach-1.png',
     images: [
       '/grace-bleach-1.png',
@@ -127,7 +134,8 @@ const initialProducts: Product[] = [
     id: '7',
     name: 'Veloria Skin Polish',
     category: 'Cosmetics & Personal Care',
-    description: 'Exfoliating polish for removing dead skin and giving a smooth, radiant look.',
+    packaging: '24PCS PER BOX • 16BOXES PER CTN',
+    description: 'Rice whitening skin polish typically comes in a set, often including a bleach powder and a developer. The bleach powder is typically a dust-free formulation and the developer is a solution, sometimes a 20 Vol 6% developer. For all skin types.',
     image: '/veloria-skin-polish-1.png',
     images: [
       '/veloria-skin-polish-1.png',
@@ -144,7 +152,8 @@ const initialProducts: Product[] = [
     id: '8',
     name: 'Veloria Remover',
     category: 'Cosmetics & Personal Care',
-    description: 'Effective cream-based hair remover for smooth and soft skin.',
+    packaging: '36PCS PER BOX • 16BOXES PER CTN',
+    description: 'Hair removal creams offer a quick, painless, and easy way to remove hair, potentially leaving skin smoother and stubble-free for longer than shaving.',
     image: '/veloria-remover-1.png',
     images: [
       '/veloria-remover-1.png',
@@ -161,7 +170,8 @@ const initialProducts: Product[] = [
     id: '9',
     name: 'Veloria Bleach',
     category: 'Cosmetics & Personal Care',
-    description: 'Herbal bleach that lightens dark facial hair and gives fairer skin.',
+    packaging: '24PCS PER BOX • 16BOXES PER CTN',
+    description: 'It can also help to even out skin texture and minimize the appearance of acne scars. Additionally, bleach cream can be a more affordable and non-invasive option compared to other skin-lightening treatments.',
     image: '/veloria-bleach-1.png',
     images: [
       '/veloria-bleach-1.png',
@@ -178,7 +188,8 @@ const initialProducts: Product[] = [
     id: '10',
     name: 'Hit Lotion',
     category: 'Cosmetics & Personal Care',
-    description: 'Anti-mosquito lotion with long-lasting protection and a fragrant, silky formula.',
+    packaging: '30PCS PER BOX • 50BOXES PER CTN',
+    description: 'They often contain moisturizing ingredients and may also include essential oils or plant extracts for fragrance and added repellent effects. Specifications can vary, but generally, effective mosquito lotions provide long-lasting protection (up to 8 hours or more).',
     image: '/hit-lotion-0.png',
     images: [
       '/hit-lotion-0.png',
@@ -195,7 +206,8 @@ const initialProducts: Product[] = [
     id: '11',
     name: 'Neat Remover',
     category: 'Cosmetics & Personal Care',
-    description: 'Cream remover for unwanted body hair with a smooth, quick-action formula.',
+    packaging: '36PCS PER BOX • 18BOXES PER CTN',
+    description: 'They often contain moisturizers, fragrances, and anti-irritants to enhance the user experience. Ingredients are carefully balanced to ensure both effective hair removal and skin safety.',
     image: '/neat-remover-1.png',
     images: [
       '/neat-remover-1.png',
@@ -213,7 +225,8 @@ const initialProducts: Product[] = [
     id: '12',
     name: 'Neat Bleach',
     category: 'Cosmetics & Personal Care',
-    description: 'Gentle bleach for lightening facial hair and brightening skin tone.',
+    packaging: '24PCS PER BOX • 24BOXES PER CTN',
+    description: 'They often contain ingredients like hydroquinone, arbutin, or vitamins, and are available in different sizes and for various skin types, including sensitive skin.',
     image: '/neat-bleach-1.png',
     images: [
       '/neat-bleach-1.png',
@@ -249,7 +262,8 @@ const initialProducts: Product[] = [
     id: '14',
     name: 'Ujala Razor',
     category: 'Razors',
-    description: 'Reliable razor for everyday grooming needs.',
+    packaging: '48PCS PER BOX • 12BOXES PER CTN',
+    description: 'A disposable razor is a single-use lightweight shaving tool. It’s convenient for travel and offers a quick shave without maintenance.',
     image: '/ujala-razor-1.jpg',
     images: [
       '/ujala-razor-1.jpg',
@@ -262,7 +276,8 @@ const initialProducts: Product[] = [
     id: '15',
     name: 'Turk Razor',
     category: 'Razors',
-    description: 'High-quality razor for smooth and precise shaving experience.',
+    packaging: '48PCS PER BOX • 12BOXES PER CTN',
+    description: 'A disposable razor is a single-use lightweight shaving tool. It’s convenient for travel and offers a quick shave without maintenance.',
     image: '/turk-razor-1.png',
     images: [
       '/turk-razor-1.png',
@@ -279,7 +294,8 @@ const initialProducts: Product[] = [
     id: '16',
     name: 'Sharp Hygiene Razor',
     category: 'Razors',
-    description: 'Hygienic razor designed for safe and comfortable shaving.',
+    packaging: '48PCS PER BOX • 12BOXES PER CTN',
+    description: 'A disposable razor is a single-use lightweight shaving tool. It’s convenient for travel and offers a quick shave without maintenance.',
     image: '/sharp-hygiene-razor-1.png',
     images: [
       '/sharp-hygiene-razor-1.png',
@@ -298,7 +314,8 @@ const initialProducts: Product[] = [
     id: '17',
     name: 'Sharp Paki Razor',
     category: 'Razors',
-    description: 'Traditional Paki razor for precise and smooth shaving.',
+    packaging: '24PCS PER BOX • 24BOXES PER CTN',
+    description: 'A disposable razor is a single-use lightweight shaving tool. It’s convenient for travel and offers a quick shave without maintenance.',
     image: '/sharp-paki-razor-1.png',
     images: [
       '/sharp-paki-razor-1.png',
@@ -317,7 +334,8 @@ const initialProducts: Product[] = [
     id: '18',
     name: 'Mr Clean Toothbrush',
     category: 'Toothbrush',
-    description: 'High-quality toothbrush for optimal oral hygiene.',
+    packaging: '12PCS PER BOX • 30BOXES PER CTN',
+    description: 'Mr Clean toothbrushes are designed for particular oral health needs, such as sensitive teeth, braces, or post-surgical recovery. They differ from standard toothbrushes in their bristle softness, brush head shape, or handle design to cater to specific requirements.',
     image: '/mister-clean-toothbrush-1.jpg',
     images: [
       '/mister-clean-toothbrush-1.jpg',
@@ -373,7 +391,8 @@ const initialProducts: Product[] = [
     id: '22',
     name: 'Natural ISP',
     category: 'Natural / Herbal Products',
-    description: 'Natural herbal supplement for health and wellness.',
+    packaging: '24PCS PER PACKET • 36PACKETS PER CTN',
+    description: 'Also known as Psyllium Husk, it is a natural fiber supplement made from the husk of the Plantago ovata plant. It\'s often used to address digestive issues like constipation and is available in powder or husk form.',
     image: '/natural-isp-1.jpg',
     images: [
       '/natural-isp-1.jpg'
@@ -384,7 +403,8 @@ const initialProducts: Product[] = [
     id: '23',
     name: 'Natural Joshanda',
     category: 'Natural / Herbal Products',
-    description: 'Traditional herbal remedy for respiratory wellness.',
+    packaging: '40 SACHETS PER BOX • 60BOXES PER CTN',
+    description: 'Traditional herbal remedy for colds, cough, and fever. Prepared by boiling herbs or dissolving sachet in hot water or tea.',
     image: '/jor-joshanda-1.jpg',
     images: [
       '/jor-joshanda-1.jpg',
@@ -397,7 +417,8 @@ const initialProducts: Product[] = [
     id: '24',
     name: 'Punjabi Ispagol',
     category: 'Natural / Herbal Products',
-    description: 'High-quality ispagol (psyllium husk) for digestive health.',
+    packaging: '24PCS PER PACKET • 50PACKETS PER CTN',
+    description: 'Helps soften stool and promote regularity, making it useful for treating constipation. It supports the growth of beneficial gut bacteria due to its prebiotic fiber content. It can help with weight loss by promoting fullness and reducing calorie intake.',
     image: '/natural-isp-2.jpg',
     images: [
       '/natural-isp-2.jpg'
@@ -436,7 +457,8 @@ const initialProducts: Product[] = [
     id: '27',
     name: 'Brown Adhesive Tape',
     category: 'Adhesive Tape',
-    description: 'Standard brown packaging tape for secure sealing.',
+    packaging: 'Available in all sizes',
+    description: 'Versatile adhesive tape for office, home or school use.',
     image: '/brown-tape-1.jpg',
     images: [
       '/brown-tape-1.jpg'
@@ -447,7 +469,8 @@ const initialProducts: Product[] = [
     id: '28',
     name: 'Super Yellowish Adhesive Tape',
     category: 'Adhesive Tape',
-    description: 'Highly visible yellowish tape for marking and sealing.',
+    packaging: 'Available in all sizes',
+    description: 'Versatile adhesive tape for office, home or school use.',
     image: '/super-yellowish-tape-1.jpg',
     images: [
       '/super-yellowish-tape-1.jpg'
@@ -458,7 +481,8 @@ const initialProducts: Product[] = [
     id: '29',
     name: 'Masking Tape',
     category: 'Adhesive Tape',
-    description: 'Crepe paper masking tape for painting and general purpose use.',
+    packaging: 'Available in all sizes',
+    description: 'Versatile adhesive tape for office, home or school use. Multi-purpose masking adhesive.',
     image: '/masking-tape-1.png',
     images: [
       '/masking-tape-1.png'
@@ -482,7 +506,8 @@ const initialProducts: Product[] = [
     id: '31',
     name: 'Hit Tape',
     category: 'PVC Tape',
-    description: 'Durable PVC electrical insulation tape.',
+    packaging: '10PCS PER ROLL • 45ROLL/CTN',
+    description: 'Versatile and strong, the go-to choice for all electrical needs, ensuring safe and reliable connection.',
     image: '/hit-tape-2.png',
     images: [
       '/hit-tape-2.png',
@@ -495,7 +520,8 @@ const initialProducts: Product[] = [
     id: '32',
     name: 'Snake Tape',
     category: 'PVC Tape',
-    description: 'High-quality PVC tape with strong adhesive properties.',
+    packaging: '10PCS PER ROLL • 45ROLL/CTN',
+    description: 'Versatile and strong, the go-to choice for all electrical needs, ensuring safe and reliable connection.',
     image: '/snake-tape-1.jpg',
     images: [
       '/snake-tape-1.jpg',
@@ -508,7 +534,8 @@ const initialProducts: Product[] = [
     id: '33',
     name: 'Gold Tape',
     category: 'PVC Tape',
-    description: 'Premium gold-colored PVC tape for various applications.',
+    packaging: '10PCS PER ROLL • 45ROLL/CTN',
+    description: 'Versatile and strong, the go-to choice for all electrical needs, ensuring safe and reliable connection.',
     image: '/gold-tape-1.jpg',
     images: [
       '/gold-tape-1.jpg',
@@ -535,7 +562,8 @@ const initialProducts: Product[] = [
     id: '35',
     name: 'Sonex Color Pencil',
     category: 'Stationery',
-    description: 'Vibrant color pencils for creative artwork.',
+    packaging: '12 DOZ PER BOX • 40BOXES PER CTN',
+    description: 'High-quality colored pencils with rich pigments, vibrant colors, and good blending capability.',
     image: '/color-pencil-1.png',
     images: [
       '/color-pencil-1.png',
@@ -548,7 +576,8 @@ const initialProducts: Product[] = [
     id: '36',
     name: 'Good Colored Pencil',
     category: 'Stationery',
-    description: 'Color pencils for creative artwork, perfect for artists and students.',
+    packaging: '12 DOZ PER BOX • 40BOXES PER CTN',
+    description: 'High-quality colored pencils with rich pigments, vibrant colors, and good blending capability.',
     image: '/color-pencil-2.png',
     images: [
       '/color-pencil-2.png',
@@ -589,7 +618,8 @@ const initialProducts: Product[] = [
     id: '39',
     name: '777 Tape',
     category: 'Stationery Tapes',
-    description: 'High-performance stationery tape for demanding tasks.',
+    packaging: '12PCS PER ROLL • 100ROLL/CTN ',
+    description: ' Available sizes: 11mm, 12mm • Lengths: 4, 6, 10, 12, 14, 16, 18, 20, 25, 30 Yards.It adheres firmly to various surfaces for secure long-lasting bonds.',
     image: '/777.png',
     images: [
       '/777.png'
@@ -657,7 +687,8 @@ const initialProducts: Product[] = [
     id: '45',
     name: 'Silicon Nipple',
     category: 'Baby Products (Soothers)',
-    description: 'Safe and comfortable silicon soother for babies.',
+    packaging: '24PCS PER BOX • 24BOXES PER CTN',
+    description: 'Designed to adjust to baby’s pressure for the right amount of liquid, with micro air vents to prevent collapse. Compatible with Evenflo Classic Bottles.',
     image: '/silicon-nipple-1.jpg',
     images: [
       '/silicon-nipple-1.jpg',
@@ -668,9 +699,10 @@ const initialProducts: Product[] = [
   },
   {
     id: '46',
-    name: 'Camera Nipple',
+    name: 'Camera Soother',
     category: 'Baby Products (Soothers)',
-    description: 'Innovative soother designed for easy monitoring and comfort.',
+    packaging: '12PCS PER BOX • 24BOXES PER CTN',
+    description: 'A groundbreaking soother using lights and sounds to comfort babies. Features customizable comfort and “Sync with Sound.”',
     image: '/camera-nipple-1.jpg',
     images: [
       '/camera-nipple-1.jpg',
@@ -711,7 +743,8 @@ const initialProducts: Product[] = [
     id: '49',
     name: 'Shine X Scourer',
     category: 'Cleaning Products',
-    description: 'Heavy-duty scourer for tough grime and stains.',
+    packaging: '36PCS PER BOX • 8BOXES PER CTN',
+    description: 'A "sparking scourer" refers to a metal scourer, often made of stainless steel, designed for effective cleaning and scrubbing, especially for tough stains and grease. They are known for their ability to remove baked-on food and other stubborn messes.',
     image: '/shine-x-scourer-1.jpg',
     images: [
       '/shine-x-scourer-1.jpg',
@@ -726,7 +759,8 @@ const initialProducts: Product[] = [
    id: '50',
     name: 'Shine X Scourer',
     category: 'Cleaning Products',
-    description: 'Heavy-duty scourer for tough grime and stains.',
+    packaging: '36PCS PER BOX • 8BOXES PER CTN',
+    description: 'A "sparking scourer" refers to a metal scourer, often made of stainless steel, designed for effective cleaning and scrubbing, especially for tough stains and grease. They are known for their ability to remove baked-on food and other stubborn messes.',
     image: '/shine-x-scourer-2.png',
     images: [
       '/shine-x-scourer-2.png',
@@ -739,7 +773,8 @@ const initialProducts: Product[] = [
    id: '51',
     name: 'Shine X Scourer',
     category: 'Cleaning Products',
-    description: 'Heavy-duty scourer for tough grime and stains.',
+    packaging: '36PCS PER BOX • 8BOXES PER CTN',
+    description: 'A "sparking scourer" refers to a metal scourer, often made of stainless steel, designed for effective cleaning and scrubbing, especially for tough stains and grease. They are known for their ability to remove baked-on food and other stubborn messes.',
     image: '/shine-x-scourer-3.png',
     images: [
       '/shine-x-scourer-3.png',
@@ -751,7 +786,8 @@ const initialProducts: Product[] = [
     id: '52',
     name: 'Tissue',
     category: 'Cleaning Products',
-    description: 'Soft and absorbent tissues for everyday cleaning needs.',
+    packaging: '24PCS PER BOX • 20BOXES PER CTN',
+    description: 'Compact mini tissue with high absorption, soft feel, and mild fragrance.',
     image: '/tissue-1.jpg',
     images: [
       '/tissue-1.jpg',
@@ -766,7 +802,8 @@ const initialProducts: Product[] = [
     id: '53',
     name: 'Rat Book (Mouse/Rat Catcher)',
     category: 'Pest Control',
-    description: 'Effective and humane trap for catching mice and rats.',
+    packaging: '100PCS PER CTN',
+    description: 'Strong adhesive, ready to use, safe and sanitary. Non-toxic, reusable, and environmentally friendly.',
     image: '/rat-book-1.jpg',
     images: [
       '/rat-book-1.jpg',
@@ -781,7 +818,8 @@ const initialProducts: Product[] = [
     id: '54',
     name: 'Turk Glue',
     category: 'Craft Supplies',
-    description: 'Premium quality elfi adhesive used for crafts, nails, or multipurpose cosmetic use.',
+    packaging: '1.5 GM – Card: 12PCS PER CARD • 100CARDS/CTN',
+    description: 'Turk Super Glue is a high-quality adhesive designed for a wide range of bonding applications. With its fast and reliable bonding capabilities, this super glue provides a strong and durable hold on various materials, including plastics, ceramics, metals, and more. ',
     image: '/turk-elfi-1.png',
     images: [
       '/turk-elfi-1.png',
@@ -797,7 +835,8 @@ const initialProducts: Product[] = [
     id: '55',
     name: 'Turk Glue 20 Gram',
     category: 'Craft Supplies',
-    description: 'Compact 20g Turk glue suitable for precise application in arts, crafts, or beauty.',
+    packaging: '20 GM – Box: 25PCS PER BOX • 12BOXES/CTN',
+    description: 'Turk Super Glue is a high-quality adhesive designed for a wide range of bonding applications. With its fast and reliable bonding capabilities, this super glue provides a strong and durable hold on various materials, including plastics, ceramics, metals, and more.',
     image: '/turk-glue-20g-1.jpg',
     images: [
       '/turk-glue-20g-1.jpg',
@@ -813,7 +852,8 @@ const initialProducts: Product[] = [
     id: '56',
     name: 'Turk Glue 50 Gram',
     category: 'Craft Supplies',
-    description: 'Larger 50g Turk glue ideal for extended use in crafting and professional projects.',
+    packaging: '50 GM – Box: 10PCS PER BOX • 12BOXES/CTN',
+    description: 'Turk Super Glue is a high-quality adhesive designed for a wide range of bonding applications. With its fast and reliable bonding capabilities, this super glue provides a strong and durable hold on various materials, including plastics, ceramics, metals, and more. ',
     image: '/turk-glue-50g-1.png',
     images: [
       '/turk-glue-50g-1.png',
